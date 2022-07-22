@@ -1,0 +1,147 @@
+.video-page{
+    display: flex;
+    gap: 0.875rem;   
+    padding: 2rem ;
+}
+
+.main-conetnt{
+    flex: 5;
+    flex-direction: column;
+    color: #fff;
+    
+}
+.recommendation{
+    flex: 2;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.single-recommendation{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.mini-banner{
+    width: 168px;
+    object-fit: cover;
+}
+@media screen and (max-width: 1170px){
+    .video-page {
+        flex-direction: column;
+    }
+}
+
+
+.single-video-footer{
+    padding: 1.125rem 0;
+}
+.single-video-title{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.7rem;
+}
+.single-video-title-light-mode{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    color: #000;
+}
+
+.single-video-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-text-video{
+    font-size: 13px;
+    color: #999;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.icon-btns{
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.icon-btns-light-mode{
+    background: transparent;
+    border: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.share{
+    transform: rotateY(180deg);
+}
+
+.owner{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.owner-photo{
+    width: 48px;height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.owner-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+}
+
+.owner-info-light-mode{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #000;
+}
+.owner-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.owner-title h3{
+    font-weight: 500;
+    font-size: 15px;
+    color: inherit;
+}
+
+.owner-btn{
+    border: none;
+    background-color: rgb(190, 0, 0);
+    color: #fff;
+    padding: 0.7rem 1.15rem;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.owner-subscribe{
+    color: #999;
+    font-size: 12px;
+    margin-top: -0.5rem;
+}
+
+.owner-description{
+    font-size: 14px;
+    margin-top: 1rem;
+    color: inherit;
+}

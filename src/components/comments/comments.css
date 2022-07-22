@@ -1,0 +1,45 @@
+.new-comment{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.person{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comment-input{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+.comment-input-light-mode{
+    background: transparent;
+    border: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.hr-comments {
+    margin: 0.25rem 0;
+    border: 0.1px solid rgb(48, 48, 48);
+    margin-top: 1rem;
+}
+
+.hr-comments-light-mode {
+    margin: 0.25rem 0;
+    border: 0.1px solid #eee;
+    margin-top: 0.5remrem;
+}

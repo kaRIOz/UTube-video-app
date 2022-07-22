@@ -1,0 +1,62 @@
+.content{
+    background-color: #202020;
+    color: #fff;
+    overflow: hidden;
+}
+.content-light-mode{
+    background-color: rgb(245, 245, 245);
+    color: #202020;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(44, 44, 44);
+    border-bottom: 1px solid rgb(44, 44, 44);
+}
+.tags-light-mode{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.tag{
+    background-color: rgb(68, 68, 68);
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    margin: 0 0.3rem;
+}
+
+
+.tag.active {
+    background-color: #202020;
+    color: #fff;
+}
+
+.tag.active:hover {
+    background-color: #202020;
+    color: #fff;
+}
+
+.tag:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+.tag-light-mode{
+    background-color: rgb(233, 233, 233);
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    margin: 0 0.3rem;
+}
+.tag-light-mode:hover{
+    background-color: rgb(202, 202, 202);
+}
